@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+echo -n "Enter your name: "
+read name
+echo "hello, $name"
+
+echo -e "\n"
+
+read -p "Your age? " age
+echo "You are $age years old!"
+
+echo -e "\n"
+
+read -p "Full name: " first last
+echo "You're first name is: $first"
+echo "You're last name is: $last"
+
+echo -e "\n"
+
+read -s -p "Enter password: " password
+echo
+echo "Password Received as $password"

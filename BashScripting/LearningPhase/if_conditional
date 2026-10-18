@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+read -p "Enter marks: " marks
+if [[ $marks -ge 80 ]]; then
+    echo "Grade A"
+elif [[ $marks -ge 70 ]]; then
+    echo "Grade B"
+else
+    echo "Fail"
+    exit
+fi
+
+echo 
+echo
+
+read -p "Enter age: " age
+if [[ $marks -ge 80 && age>=18 ]]; then
+    echo "Meet the requirements"
+else
+    echo "Try again later..."
+fi
