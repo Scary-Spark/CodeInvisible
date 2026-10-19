@@ -1,0 +1,5 @@
+names=("Scary" "Spark" "dave" "Jhon" "Harry")
+
+for item in "${names[@]}"; do
+    echo "$item"
+done
