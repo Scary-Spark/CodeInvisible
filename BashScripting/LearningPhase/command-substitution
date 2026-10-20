@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+thing=`whoami`
+
+echo "thing is: $thing"
+
+echo `echo \`whoami\``
+
+echo easy-way-of-nesting
+whoami
+echo "$(whoami)"
+echo "$(echo $(whoami))"

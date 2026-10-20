@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+s=$1
+case "$s" in
+	dave)
+		echo 'hi dave'
+		;;
+	buddy)
+		echo 'hi buddy'
+		;;
+	guy)
+		ehco 'hi guy'
+		;;
+	*)
+		echo 'default case'
+		;;
+esac
+
