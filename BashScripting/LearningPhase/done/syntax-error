@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo "Hello"
+
+if true; then
+    echo "goodbye"
+fii

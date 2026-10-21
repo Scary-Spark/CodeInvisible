@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+source ./lib/greetings
+
+greet dave
+greet john
+greet buddy
